@@ -1,0 +1,38 @@
+<Solution>
+  <Folder Name="/DataBase/">
+    <File Path="DataBase/SucursalEsteDB.db" />
+    <File Path="DataBase/SucursalNorteDB.db" />
+    <File Path="DataBase/SucursalOesteDB.db" />
+  </Folder>
+  <Folder Name="/InventoryService/" />
+  <Folder Name="/InventoryService/API/">
+    <Project Path="InventoryService/API/InventoryService.csproj" />
+  </Folder>
+  <Folder Name="/InventoryService/Application/">
+    <Project Path="InventoryService/Application/InventoryService.Application.csproj" />
+  </Folder>
+  <Folder Name="/InventoryService/Domain/">
+    <Project Path="InventoryService/Domain/InventoryService.Domain.csproj" />
+  </Folder>
+  <Folder Name="/InventoryService/Infrastructure/">
+    <Project Path="InventoryService/Infrastructure/InventoryService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/" />
+  <Folder Name="/OrderService/API/">
+    <Project Path="OrderService/API/OrderService.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/Application/">
+    <Project Path="OrderService/Application/OrderService.Application.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/Domain/">
+    <Project Path="OrderService/Domain/OrderService.Domain.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/Infrastructure/">
+    <Project Path="OrderService/Infrastructure/OrderService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/Infrastructure/d/" />
+  <Folder Name="/Test/">
+    <Project Path="Test/InventoryServices.TestConsole/InventoryServices.TestConsole.csproj" Id="2c8058f5-0c28-499e-b16a-71764cfefa0d" />
+    <Project Path="Test/TestConsole/OrderService.TestConsole.csproj" />
+  </Folder>
+</Solution>
