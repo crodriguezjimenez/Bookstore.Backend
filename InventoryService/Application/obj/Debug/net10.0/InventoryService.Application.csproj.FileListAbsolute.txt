@@ -1,0 +1,15 @@
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\bin\Debug\net10.0\InventoryService.Application.deps.json
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\bin\Debug\net10.0\InventoryService.Application.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\bin\Debug\net10.0\InventoryService.Application.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\bin\Debug\net10.0\InventoryService.Domain.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\bin\Debug\net10.0\InventoryService.Domain.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.csproj.AssemblyReference.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.AssemblyInfoInputs.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.AssemblyInfo.cs
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.csproj.CoreCompileInputs.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\Inventor.DFE2E32E.Up2Date
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\refint\InventoryService.Application.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\InventoryService.Application.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Application\obj\Debug\net10.0\ref\InventoryService.Application.dll

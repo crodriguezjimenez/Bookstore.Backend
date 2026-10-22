@@ -1,0 +1,253 @@
+[
+  {
+    "ContainingType": "OrderService.Endpoints.AuthenticationTokenEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthenticationTokenEndpoint\u003Eb__0_0",
+    "RelativePath": "api/auth/token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OrderService.API.Auth.TokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "GetAuthToken",
+    "Summary": "Genera un token JWT usando Client Credentials para comunicaci\u00F3n M2M"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_0",
+    "RelativePath": "api/orders/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branches",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Obtiene ordenes de una o varias sucursales en paralelo"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_2",
+    "RelativePath": "api/orders/{branch}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "OrderService.Application.DTOs.OrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Crea un orden en una sucursal espec\u00EDfica"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_1",
+    "RelativePath": "api/orders/{branch}/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Obtiene un orden espec\u00EDfico de una sucursal"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_4",
+    "RelativePath": "api/orders/{branch}/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "OrderService.Application.DTOs.OrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Actualiza un orden en una sucursal"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_6",
+    "RelativePath": "api/orders/{branch}/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Elimina un orden de una sucursal"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_3",
+    "RelativePath": "api/orders/{branch}/batch",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[OrderService.Application.DTOs.OrderDto, OrderService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Crea una lista de ordenes por lote en una sucursal"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_5",
+    "RelativePath": "api/orders/{branch}/batch",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[OrderService.Application.DTOs.OrderItemDto, OrderService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Actualiza m\u00FAltiples ordenes por lote en una sucursal"
+  },
+  {
+    "ContainingType": "OrderService.API.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_7",
+    "RelativePath": "api/orders/{branch}/batch",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Elimina una lista de ordenes por IDs en una sucursal"
+  }
+]

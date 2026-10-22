@@ -1,0 +1,253 @@
+[
+  {
+    "ContainingType": "InventoryService.Endpoints.AuthenticationTokenEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthenticationTokenEndpoint\u003Eb__0_0",
+    "RelativePath": "api/auth/token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InventoryService.API.Auth.TokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "GetAuthToken",
+    "Summary": "Genera un token JWT usando Client Credentials para comunicaci\u00F3n M2M"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_0",
+    "RelativePath": "api/books/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branches",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Obtiene libros de una o varias sucursales en paralelo"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_2",
+    "RelativePath": "api/books/{branch}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "InventoryService.Application.DTOs.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Crea un libro en una sucursal espec\u00EDfica"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_1",
+    "RelativePath": "api/books/{branch}/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Obtiene un libro espec\u00EDfico de una sucursal"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_4",
+    "RelativePath": "api/books/{branch}/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "InventoryService.Application.DTOs.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Actualiza un libro en una sucursal"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_6",
+    "RelativePath": "api/books/{branch}/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Elimina un libro de una sucursal"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_3",
+    "RelativePath": "api/books/{branch}/batch",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[InventoryService.Application.DTOs.BookDto, InventoryService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Crea una lista de libros por lote en una sucursal"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_5",
+    "RelativePath": "api/books/{branch}/batch",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[InventoryService.Application.DTOs.BookItemDto, InventoryService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Actualiza m\u00FAltiples libros por lote en una sucursal"
+  },
+  {
+    "ContainingType": "InventoryService.API.Endpoints.BookEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBookEndpoints\u003Eb__0_7",
+    "RelativePath": "api/books/{branch}/batch",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Summary": "Elimina una lista de libros por IDs en una sucursal"
+  }
+]

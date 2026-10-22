@@ -1,0 +1,17 @@
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Infrastructure.deps.json
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Infrastructure.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Infrastructure.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Application.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Domain.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Application.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\bin\Debug\net10.0\InventoryService.Domain.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.csproj.AssemblyReference.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.AssemblyInfoInputs.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.AssemblyInfo.cs
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\Inventor.7CFDF49E.Up2Date
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\refint\InventoryService.Infrastructure.dll
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\InventoryService.Infrastructure.pdb
+C:\Rafa\ProyectNet\Bookstore.Backend\InventoryService\Infrastructure\obj\Debug\net10.0\ref\InventoryService.Infrastructure.dll
