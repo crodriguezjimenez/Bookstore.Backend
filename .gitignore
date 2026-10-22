@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Git.Bookstore.Backend/FileContentIndex/abf12543-c9f9-40ed-bbc6-f6b5827b72dd.vsidx
+/.vs/Git.Bookstore.Backend/FileContentIndex/b3b86db7-0843-4f36-bcd3-e6286c9009ad.vsidx
+/.vs/Git.Bookstore.Backend/v18
+/.vs/Git.Bookstore.Backend/v18/.wsuo
+/.vs/Git.Bookstore.Backend/v18/DocumentLayout.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
